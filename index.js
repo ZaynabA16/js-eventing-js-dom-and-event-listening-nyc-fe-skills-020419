@@ -11,6 +11,7 @@ main.addEventListener('click', onClick)
 // console.log(event.KeyCode)
 //main.addEventListener('keydown' onKeyDown)
 // }
+
 const inputBox = document.getElementById('hey')
 function onInputKeyDown(event){
   if (event.keyCode === 71){
@@ -22,7 +23,6 @@ inputBox.addEventListener('keydown', onInputKeyDown)
 
 const p = document.getElementById('yellow')
 // function OnYellowClick(event){
-  
 // }
 p.addEventListener('click', (event) => {
   p.style.backgroundColor = yellow  
